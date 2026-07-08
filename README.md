@@ -8,7 +8,7 @@ I am especially interested in AI/ML Engineering, MLOps, Applied Deep Learning, C
 
 ## Featured Projects
 
-### BirdML — End-to-End MLOps Computer Vision System
+### BirdML, End-to-End MLOps Computer Vision System
 
 BirdML is a production-style bird species classification system built to demonstrate the full machine learning lifecycle, from data ingestion and model training to cloud deployment and inference.
 
@@ -27,7 +27,7 @@ BirdML is a production-style bird species classification system built to demonst
 
 ---
 
-### Enhancing Nuclear Safety AI Pipeline — LLM/RAG Document Processing
+### Enhancing Nuclear Safety AI Pipeline, LLM/RAG Document Processing
 
 A research-oriented AI pipeline focused on using LLMs, retrieval-augmented generation, and cache-augmented generation techniques for nuclear safety document workflows.
 
@@ -56,11 +56,11 @@ One of my pinned contributions is to the UCSD SOC research group repository, whe
 
 ## Experience
 
-### Settlyfe Inc. — Full-stack / Backend Engineer
+### Settlyfe Inc., Full-stack / Backend Engineer
 
 I build and maintain backend services for production application features using Java Spring Boot, MySQL, and RESTful APIs. My work includes roommate matching, swipe interactions, top-match selection logic, database schema improvements, and Git-based team development.
 
-### Revscale Technologies Inc. — AI Automation Intern
+### Revscale Technologies Inc., AI Automation Intern
 
 I built AI automation workflows using tools such as n8n, Zapier, APIs, vector databases, and LLM pipelines. My work included RAG data pipelines, AI voice agent scheduling improvements, campaign reporting automation, and centralized error monitoring.
 
