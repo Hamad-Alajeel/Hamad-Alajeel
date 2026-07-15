@@ -8,6 +8,25 @@ I am especially interested in AI/ML Engineering, MLOps, Applied Deep Learning, C
 
 ## Featured Projects
 
+### ApexQ4, End-to-End Investment Analyst Agent
+
+ApexQ4 is a production-deployed conversational AI system that answers questions about SEC 10-Q filings for NVIDIA, Microsoft, and Alphabet with page-level inline citations, built to demonstrate the full LLMOps lifecycle from data ingestion and agent design to cloud deployment and observability.
+
+- Designed a two-level LangGraph agent — an orchestrator (`gpt-4o`) that delegates to per-company expert subgraphs (`gpt-4o-mini`) with bounded retrieval loops, keeping persisted session state small while running deep retrieval per query
+- Built the ingestion pipeline with Docling's `HybridChunker` and OpenAI `text-embedding-3-small`, preserving page provenance so the agent cites every claim back to the source paragraph
+- Persisted per-session chat state in managed Redis Cloud via LangGraph's `RedisSaver` with TTL-based idle expiry
+- Built a FastAPI backend and a React + Vite + TypeScript frontend, containerized with a multi-stage Docker image
+- Deployed the backend to AWS ECS Fargate behind an ALB with HTTPS termination and application autoscaling; hosted the SPA on S3 + CloudFront with ACM certificates and a Route 53 apex domain
+- Codified all AWS infrastructure with Terraform across three independently applied modules (VPC, ECS, IAM, ACM, Route 53, S3, CloudFront)
+- Set up CI/CD using GitHub Actions with OIDC (no long-lived AWS keys) for automated tests on `dev`, and separate backend / frontend / vectorstore-rebuild pipelines on `main`
+- Wrote 75+ unit and integration tests with pytest, plus a LangSmith LLM-as-judge evaluation pipeline scoring scope adherence and citation grounding
+
+**Tech:** LangGraph, LangChain, OpenAI, Chroma, Docling, Redis, FastAPI, React, TypeScript, Docker, AWS (ECS, ALB, S3, CloudFront, Secrets Manager), Terraform, GitHub Actions, pytest, LangSmith
+
+**Live Demo:** https://apexq4.com
+
+---
+
 ### BirdML, End-to-End MLOps Computer Vision System
 
 BirdML is a production-style bird species classification system built to demonstrate the full machine learning lifecycle, from data ingestion and model training to cloud deployment and inference.
