@@ -1,6 +1,6 @@
 # Hi, I'm Hamad Alajeel
 
-I'm a Full-stack / Backend Engineer and Machine Learning & Data Science graduate student at UC San Diego with a background in Electrical Engineering.
+I'm a Full-stack / Backend Engineer and Machine Learning & Data Science graduate from UC San Diego with a background in Electrical Engineering.
 
 I focus on building AI-driven applications that combine machine learning, backend systems, cloud infrastructure, and MLOps. My work spans computer vision, LLM/RAG pipelines, AI automation, REST APIs, and production-oriented ML deployment.
 
@@ -104,5 +104,5 @@ B.S. in Electrical Engineering
 ## Contact
 
 - GitHub: https://github.com/Hamad-Alajeel
-- LinkedIn: https://linkedin.com/in/hamad-alajeel
+- LinkedIn: [https://linkedin.com/in/hamad-alajeel](https://www.linkedin.com/in/hamad-alajeel-a6bb41210/)
 - Email: hamad.alajeel2019@gmail.com
