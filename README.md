@@ -31,6 +31,8 @@ ApexQ4 is a production-deployed conversational AI system that answers questions 
 
 ### BirdML, End-to-End MLOps Computer Vision System
 
+<img width="1280" height="656" alt="cursorful-video-1784324431332-ezgif com-video-to-webp-converter" src="https://github.com/user-attachments/assets/0392a70c-6070-4fe8-b1a6-7ece7f6fe8f2" />
+
 BirdML is a production-style bird species classification system built to demonstrate the full machine learning lifecycle, from data ingestion and model training to cloud deployment and inference.
 
 - Designed and deployed an end-to-end ML system for a 525-species bird classifier
