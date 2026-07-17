@@ -1,4 +1,3 @@
-<img width="1280" height="656" alt="cursorful-video-1784323216238-ezgif com-video-to-webp-converter" src="https://github.com/user-attachments/assets/9febd221-4fe2-4162-9423-76697e033bc5" />
 # Hi, I'm Hamad Alajeel
 
 I'm a Full-stack / Backend Engineer and Machine Learning & Data Science graduate from UC San Diego with a background in Electrical Engineering.
@@ -11,7 +10,6 @@ I am especially interested in AI/ML Engineering, MLOps, Applied Deep Learning, C
 
 ### ApexQ4, End-to-End Investment Analyst Agent
 
-<img width="400" height="205" alt="cursorful-video-1784323216238" src="https://github.com/user-attachments/assets/0c140a26-cba0-4ae3-9844-ba1821bf4070" />
 <img width="1280" height="656" alt="cursorful-video-1784323216238-ezgif com-video-to-webp-converter" src="https://github.com/user-attachments/assets/01c83320-3222-4555-bf87-3daf5d90ab2c" />
 
 ApexQ4 is a production-deployed conversational AI system that answers questions about SEC 10-Q filings for NVIDIA, Microsoft, and Alphabet with page-level inline citations, built to demonstrate the full LLMOps lifecycle from data ingestion and agent design to cloud deployment and observability.
