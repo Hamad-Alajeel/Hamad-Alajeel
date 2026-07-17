@@ -10,6 +10,24 @@ I am especially interested in AI/ML Engineering, MLOps, Applied Deep Learning, C
 
 ### ApexQ4, End-to-End Investment Analyst Agent
 
+
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/ee877ba3-c5b0-42a4-9733-e01a72eeba5e
+
+
+
+
+
+
+
+
+
 ApexQ4 is a production-deployed conversational AI system that answers questions about SEC 10-Q filings for NVIDIA, Microsoft, and Alphabet with page-level inline citations, built to demonstrate the full LLMOps lifecycle from data ingestion and agent design to cloud deployment and observability.
 
 - Designed a two-level LangGraph agent — an orchestrator (`gpt-4o`) that delegates to per-company expert subgraphs (`gpt-4o-mini`) with bounded retrieval loops, keeping persisted session state small while running deep retrieval per query
